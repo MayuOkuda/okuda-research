@@ -1,5 +1,8 @@
 \documentclass[a4j]{jarticle}
 
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+
 %% プリアンブルここから
 \title{2016年度 ソフトウェアワークショップ中間報告書}
 \author{奥田麻友}
@@ -16,12 +19,17 @@ AndroidStudioの環境構築を行い，使い方の勉強を進める．アプ�
 
 \section{進捗}
 AndroidStudioのUI部品の配置方法や作業の進め方はある程度理解できた．\\
-mailの送信にJavaMailを用いてアプリ画面に配置したボタンクリックによるメールの送信ができるように試行錯誤中．mailアドレスやSMTP設定もとりあえずjavaファイル内に直に記述し，アプリから送信できるように調整中である．JavaMailを用いてandroidアプリからgmailを送信できるようにするためのソースコードをネット上から引用してその設定を研究室のメールサーバに変更すればできると考えたが，接続エラーが出た為修正中である．（gmailでは送信できた．）
+mailの送信にJavaMailを用いてアプリ画面に配置したボタンクリックによるメールの送信ができるように試行錯誤中．ライブラリー\cite{c2}をインストールした．mailアドレスやSMTP設定もとりあえずjavaファイル内に直に記述し，アプリから送信できるように調整中である．JavaMailを用いてandroidアプリからgmailを送信できるようにするためのソースコードをネット上から引用し\cite{c1}，その設定を研究室のメールサーバに変更すればできると考えたが，接続エラーが出た為修正中である．（gmailでは送信できた．）
 
 
 \section{今後の予定}
 9/14の中間報告までに先に述べたエラーを解消し，研究室のメールアドレスから送信できるようにする．また，アプリ画面からアドレス設定ができるようにするところまでは進めておく．
 
 
+
+\begin{thebibliography}{2}
+\bibitem{c2} Google Code Archive，https://code.google.com/archive/p/javamail-android/downloads
+\bibitem{c1} Android　ゼロからJavamailを使ってメールを送る方法，http://qiita.com/usatie/items/e71b9bb34963b74a8b57
+\end{thebibliography}
 
 \end{document}
