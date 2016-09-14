@@ -1,0 +1,23 @@
+\documentclass[a4j,titlepage]{jarticle}
+
+
+%% プリアンブルここから                                                         
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+\usepackage{comment}
+\usepackage{fancybox}
+\usepackage{alltt}
+\usepackage{ascmac}
+
+\begin{document}
+
+\title{{\normalsize Webメディア第二回レポート}\\                                
+                エクスプロイトに関する調査}
+\author{学籍番号~1180303\\
+        奥田 麻友\\}
+\date{\today}
+%% プリアンブルここまで                                                         
+
+\section{目的}
+
+\end{document}
